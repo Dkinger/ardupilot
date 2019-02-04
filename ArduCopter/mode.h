@@ -225,7 +225,7 @@ private:
 };
 #endif
 
-#if MODE_NEW_MODE == ENABLED
+#if MODE_NEW_MODE_ENABLED == ENABLED
 class ModeNewMode : public Mode {
 
 public:
