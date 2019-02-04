@@ -290,6 +290,12 @@
 #endif
 
 //////////////////////////////////////////////////////////////////////////////
+// New Mode
+#ifndef MODE_NEW_MODE_ENABLED
+# define MODE_NEW_MODE_ENABLED ENABLED
+#endif
+
+//////////////////////////////////////////////////////////////////////////////
 // Drift - fly vehicle in altitude-held, coordinated-turn mode
 #ifndef MODE_DRIFT_ENABLED
 # define MODE_DRIFT_ENABLED ENABLED
